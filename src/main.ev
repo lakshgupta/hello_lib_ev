@@ -1,0 +1,11 @@
+package hello_lib;
+
+import std.io;
+
+pub fun hello() -> void {
+	io.println("hello!");
+}
+
+pub fun main() -> void {
+	hello();
+}
