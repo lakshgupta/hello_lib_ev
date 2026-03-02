@@ -2,10 +2,10 @@ package hello_lib;
 
 import std.io;
 
-pub fun hello() -> str {
+pub fun hello(): str {
 	return "hello!";
 }
 
-pub fun main() -> void {
+pub fun main(): void {
 	io.println(hello());
 }
